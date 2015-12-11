@@ -1,0 +1,4 @@
+from django import forms
+
+class FriggForm(forms.Form):
+    question = forms.CharField(label='fquest')

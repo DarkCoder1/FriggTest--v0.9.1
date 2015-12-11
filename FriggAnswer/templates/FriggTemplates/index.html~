@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html lang='pt-br'>
+    <head>
+        <style>
+			footer,header{
+				width:100%;
+				background-color:lightgreen;
+				}
+			
+			#ans{
+				width:50%;
+				float:left;
+				}
+				
+			body{
+				margin:0;
+				padding:0;
+				}
+			
+			#fquestion{
+				width:50%;
+				float:right;
+				}
+				
+			#frigg{
+				width:50%;
+				heigth:100%;
+				float:left;
+				}
+			
+			#header{
+				float:left;
+				}
+				
+			main{
+				background-color:white;
+				width:100%;
+				heigth: 100%;
+				float: left;
+				}
+							
+			#footer{
+				position:relative;
+				bottom: 0;
+				float:left;
+				}
+		</style>
+        <meta charset="utf-8">
+        <title>Frigg</title>
+    </head>
+    <body>
+        <header>p</header>
+    <main>
+        <img src='nada por enquanto' alt="nada" id= "frigg">
+        <div id="rightside">
+        <div id="ans">
+        	<p>Olá, Eu sou a deusa Frigg, rainha de Asgard e 
+            	a deusa da sabedoria. Gosto de ajudar os humanos, 
+                tirando algumas dúvidas que eles possam ter. Agora 
+                me diga, o que deseja saber?</p>
+        </div>
+        <form id="fquestion">
+            <label for="question"> Digite sua pergunta:</label>
+            <input type="text" name="question" id="question"><br>
+            <input type="button" id="subBtn" name="subBtn" value="Perguntar!" onClick="responder()">
+        </form>
+        </div>
+        </main>
+        <br>
+    <footer>p</footer> 
+    </body>
+    <script>
+	function responder(){
+		var txt = document.getElementById("question").value;
+		var ans = document.getElementById("ans").innerHTML = 
+		 "<p>você perguntou: " + txt + ". Quando estiver pronta, deverei acessar uma base de dados para usar um texto e responder a sua pergunta</p>";
+	}
+    </script>
+</html>

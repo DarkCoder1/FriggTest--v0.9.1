@@ -1,0 +1,36 @@
+#/usr/bin/python
+# coding: utf-8
+
+from nltk.stem import RSLPStemmer
+from tokenizer import Tokenizer
+import re
+
+class Search:
+
+  def search(self, words, keys):
+    i = 0
+    token = Tokenizer()
+    wordsToken = token.tokenizeSentence(words)
+    for word in wordsToken:
+      for k in keys:
+        i+= self.compare(word, k)
+        if i == len(keys):
+          return words
+    return -1
+
+  def search_para(self, sentence, keys):
+    for sent in sentence:
+      response = self.search(sent.decode('utf8'), keys)
+      if type(response) != int:
+        return response
+    return "não entendi, pergunta denovo!"
+
+  def compare(self, word, key):
+    if(word == key[0]):
+      return 1
+    else:
+      stemmer = RSLPStemmer()
+      tok = stemmer.stem(key[0])
+      if(re.match(tok, word)):
+        return 1
+    return 0

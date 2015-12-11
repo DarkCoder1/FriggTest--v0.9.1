@@ -1,0 +1,33 @@
+#/usr/bin/python
+# coding: utf-8
+
+from tokenizer import Tokenizer
+import re, os
+
+class BackEnd:
+  
+  text = ''
+
+  def takeText(self, name):
+    try:
+      text = open(name).read().decode('utf8')
+      tokenText = self.preProcess(text)
+      return tokenText
+    except IOError:
+      return 0
+
+  def preProcess(self, text):
+    text = text.lower()
+    tokenizer = Tokenizer()
+    token = tokenizer.tokenizeText(text)
+    return token
+  
+  def search(self, name):
+    path_names = os.path.abspath('FriggAnswer')+'/texts/'
+    path_files = os.listdir(os.path.abspath(path_names))
+    for archive in path_files:
+	archive = archive.replace('.txt','')
+        if name.find(archive) > -1:
+           return path_names + archive + '.txt'
+    return 0
+

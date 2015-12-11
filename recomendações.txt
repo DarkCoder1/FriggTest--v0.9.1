@@ -1,0 +1,75 @@
+FriggTest - v-0.7
+
+-Aumentar a base de testes(Now?)
+
+-criar heuristica para os parágrafos recebidos(Now...)
+
+-Cuidar do encoding em nome de arquivo
+Não era esse o problema
+
+-Inserir AIML em respostas(?)
+
+-Removido o método search_files por ser considerado inútil
+
+-NÃO SE ESQUECER DE TIRAR OS BUGS !!!!!!(Now... Working... OK?)
+
+heuristica:
+
+não pode dar first match, ou seja, analisar todos os arquivos
+pontuação maior retorna o arquivo.
+
+critério de pontuação? maior ocorrÊncia de palavras iguais = 1 ponto
+radicais = 1 ponto
+sinônimos = de 0.7 a 1 ponto, dependendo do significado
+
+armazenado em array de tupla ou dicionário?
+retornar maior resultado(Como?)
+
+usar dicionário para guardar os valores. o calculo da heurística é a chave
+e um array de paragrafos como o valor. usar a função max() para achar o maior valor
+
+resultados iguais? mostrar ambos!(justamente por isso que deve-se usar o array)
+
+---------------------------0.7.1---------------------------
+
+-Otimizar a velocidade de pesquisa, excluindo iterações redundantes(OK)
+-Tratar a saída de dados(Now... Working... OK)
+
+---------------------------0.7.2---------------------------
+-Reescrever o backend, permitindo o loop por ele(Now... Working... OK)
+-Começar a pensar em como gerar respostas um pouco mais naturais
+-Verificar se é necessário limpar o array depois de cada pergunta(Now... Working... OK)
+-Eliminado os retornos repetitivos
+
+---------------------------0.7.3---------------------------
+
+-verificar se implementar first-match torna o algorítmo mais eficiente(Now... Working... OK?)
+Aparentemente, obtive ganho de precisão ao fazer isso.
+
+-Verificar listas vazias, que podem ser a possível causa do problema(Now... Working... Is not that!)
+
+-continuar testando o caso ciência da computação(Now... Working... OK!)
+Foi descoberto que o problema é devido a uma falha na renderização de um arquivo. Isso não resolveu a performace,
+mas removeu o erro
+
+-arquivos otimizados agora só possuem palavras do mesmo tipo que as palavras chaves (N,ADJ,V). Hou um imenso ganho de performance.
+
+-Verificar heurística
+
+---------------------------0.7.4---------------------------
+-continuar testes heurística(aumentar precisão)
+
+-embora seja necessário maior verificação, a heurística parece não ser o problema, e sim algum bug no backend
+ERRADO! (Solução porposta abaixo!)
+
+algumas palavras do back-end parecem não ter seus synsets corretamente gerados.
+
+-verificar otimização velocidade
+
+-verificar listas vazias
+
+-desanexar o backend da engine, tornando-a independente de novo.(Now... Working... OK!)
+
+-Minha mãe sempre tinha um ditado: ler e reler até entender. Quando não temos certeza de algo, é necessário ler de novo!
+ para todos os parágrafos selecionados, repassar o algorítmo!
+

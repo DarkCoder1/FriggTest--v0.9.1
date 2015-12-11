@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html lang='pt-br'>
+    <head>
+        {% load staticfiles %}
+        <link rel="stylesheet" type="text/css" href="{% static 'FriggAnswer\style.css' %}">
+        <meta charset="utf-8">
+        <link rel="shortcut icon" href="{% static 'FriggAnswer\favicon.ico'%}" type="image/x-icon">
+        <link rel="icon" href="{% static 'FriggAnswer\favicon.ico'%}" type="image/x-icon">
+        <title>Frigg</title>
+    </head>
+    <body>
+        <div id="all">
+        <header>
+            <img src="{% static 'FriggAnswer\logo.png' %}" alt="logo" id="logo">
+            <div id="knot-border"></div>
+        </header>
+          <div id="main-img">
+            <img id= "frigg" src="{% static 'FriggAnswer\frigg-1.png' %}" alt="Frigg">
+        </div>
+            <div id="rightside">
+                <form method="post" id="fquestion" action="/FriggAnswerFiles/" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    {{question_form.as_p}}
+                    {{up_form.as_p}}
+                    <input type="submit" value="Perguntar!" id="grt_btn"/>
+                </form>
+                <div id="ans">
+                    {{subtest|linebreaks}}
+                </div>
+            </div>
+            <p>Você deseja voltar para a pagina anterior? <a href="/FriggAnswer/">clique aqui!</a></p>
+        <br>
+        <footer>
+            <div id="knot-border"></div>
+        </footer>
+        </div>
+    </body>
+</html>

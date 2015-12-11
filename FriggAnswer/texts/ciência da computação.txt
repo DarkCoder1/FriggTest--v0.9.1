@@ -1,0 +1,10 @@
+﻿ciência da computação é a ciência que estuda as técnicas, metodologias e instrumentos computacionais, que automatiza processos e desenvolve soluções baseadas no uso do processamento digital. 
+
+a ciência da computação não se restringe apenas ao estudo dos algoritmos, suas aplicações e implementação na forma de software, extrapolando para todo e qualquer conhecimento pautado no computador, que envolve também a telecomunicação, o banco de dados e as aplicações tecnológicas que possibilitam atingir o tratamento de dados de entrada e saída, de forma que se transforme em informação.
+
+assim, a ciência da computação também abrange as técnicas de modelagem de dados e os protocolos de comunicação, além de princípios que abrangem outras especializações da área.
+
+os estudos oriundos da ciência da computação podem ser aplicados em qualquer área do conhecimento humano em que seja possível definir métodos de resolução de problemas baseados em repetições previamente observadas. 
+
+avanços recentes na ciência da computação tem impactado fortemente a sociedade contemporânea, em particular as aplicações relacionadas às áreas de redes de computadores, internet, web e computação móvel que têm sido utilizadas por bilhões de pessoas ao redor do globo.
+

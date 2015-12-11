@@ -1,0 +1,25 @@
+#/usr/bin/python
+# coding: utf-8
+
+from django.db import models
+
+
+from tokenizer import Tokenizer;
+from inference import Search;
+from tagger import Tagger;
+from question import Question;
+from back import BackEnd;
+
+question = Question()
+inferencer = Search()
+back = BackEnd()
+
+def answer(perg):
+    key = question.genKeyWords(perg.decode('utf8'))
+    fil = back.search(perg)
+    if fil != 0:
+      text = back.takeText(fil)
+      res = inferencer.search_para(text, key)
+      return res
+    else:
+      return "me desculpe, não sei"

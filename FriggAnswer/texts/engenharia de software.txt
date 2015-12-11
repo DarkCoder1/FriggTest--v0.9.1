@@ -1,0 +1,13 @@
+﻿Engenharia de Software é uma área da computação voltada à especificação, desenvolvimento e manutenção de sistemas de software, com aplicação de tecnologias e práticas de gerência de projetos e outras disciplinas, visando organização, produtividade e qualidade.
+
+
+
+Processo de software, ou processo de engenharia de software, é uma seqüência coerente de práticas que objetiva o desenvolvimento ou evolução de sistemas de software. Estas práticas englobam as atividades de especificação, projeto, implementação, testes e caracterizam-se pela interação de ferramentas, pessoas e métodos.
+
+
+A primeira definição foi Friedrich Ludwig Bauer que disse: "Engenharia de Software é a criação e a utilização de sólidos princípios de engenharia a fim de obter software de maneira econômica, que seja confiável e que trabalhe em máquinas reais". O próprio significado de engenharia já traz os conceitos de criação, construção, análise, desenvolvimento e manutenção.
+
+
+A Engenharia de Software (ES) surgiu em meados dos anos 1970 numa tentativa de contornar a crise do software e dar um tratamento de engenharia (mais sistemático e controlado) ao desenvolvimento de sistemas de software complexos. Um sistema de software complexo se caracteriza por um conjunto de componentes abstratos de software (estruturas de dados e algoritmos) encapsulados na forma de procedimentos, funções, módulos, objetos ou agentes interconectados entre si, compondo a arquitetura do software, que deverão ser executados em sistemas computacionais.
+
+O termo metodologia é bastante controverso nas ciências em geral e na Engenharia de Software em particular. Muitos autores parecem tratar metodologia e método como sinônimos, porém seria mais adequado dizer que uma metodologia envolve princípios filosóficos que guiam uma gama de métodos que utilizam ferramentas e práticas diferenciadas para realizar algo.

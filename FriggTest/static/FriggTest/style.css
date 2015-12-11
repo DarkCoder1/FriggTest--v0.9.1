@@ -1,0 +1,55 @@
+   footer,header{
+                width:100%;
+				background-color:lightgreen;
+            }
+            
+			#ans{
+                width:50%;
+                float:left;
+                margin-top: 10px;
+            }
+				
+			body{
+				margin:0;
+				padding:0;
+            }
+			
+			#fquestion{
+                margin-top: 20%;
+				width:50%;
+				float:right;
+                margin-bottom: 10px;
+            }
+				
+			#frigg{
+				width:50%;
+				heigth:100%;
+				float:left;
+            }
+			
+			#header{
+                float:left;
+            }
+				
+			main{
+                background-color:white;
+				width:100%;
+				height: 100%;
+				float: left;
+            }
+							
+			#footer{
+				position:relative;
+				bottom: 0;
+				float:left;
+            }
+                
+            #butsub{
+                background-image: url(icon-1.png);
+                background-repeat: no-repeat;
+                background-position: top;
+                text-align: center;
+                padding-top: 50px;
+                height: 70px;
+                width: 100px;
+            }

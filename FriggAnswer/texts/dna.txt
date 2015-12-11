@@ -1,0 +1,15 @@
+﻿O ácido desoxirribonucleico (adn, em português: ácido desoxirribonucleico; ou dna, em inglês: deoxyribonucleic acid) é um composto orgânico cujas moléculas contêm as instruções genéticas que coordenam o desenvolvimento e funcionamento de todos os seres vivos e alguns vírus, e que transmitem as características hereditárias de cada ser vivo. O seu principal papel é armazenar as informações necessárias para a construção das proteínas e ARNs.
+
+Os segmentos de adn que contêm a informação genética são denominados genes. O restante da sequência de ADN tem importância estrutural ou está envolvido na regulação do uso da informação genética.
+
+O DNA pode ser danificado por muitos tipos diferentes de mutagénios, que alteram a sequência de dna. Estes incluem agentes oxidantes, agentes alquilantes e também por radiação electromagnética de grande energia tal como luz ultravioleta e raios-X. O tipo de dano ao ADN produzido depende do tipo de mutagénio. A luz ultravioleta, por exemplo, pode danificar o adn produzindo dímeros de timina, que são ligações cruzadas entre pirimidinas.
+
+Por outro lado, oxidantes como radicais livres ou peróxido de hidrogénio produzem múltiplos tipos de danos, incluindo modificações de bases, em particular guanosina, e quebras das cadeias duplas.
+
+Em cada célula humana, cerca de 500 bases podem sofrer danos por oxidação por dia.
+
+As quebras da cadeia dupla são lesões oxidativas de difícil reparação, que podem produzir mutações pontuais, inserções e delecções, assim como translocações cromossómicas.
+
+
+Um gene é uma sequência de DNA que contêm informação genética e pode influenciar o fenótipo de um organismo. Dentro de um gene, a sequência de bases ao longo de uma cadeia de ADN definem uma cadeia de ARN mensageiro, que por sua vez define uma ou mais sequências proteicas. A relação entre a sequência de nucleótidos de um gene e a sequência de aminoácidos de uma proteína é determinada pelas regras de tradução, conhecidas colectivamente como o código genético.
+O código genético consiste de 'palavras' de três letras chamadas codões formadas por uma sequência de três nucleótidos (ex. ACU, CAG, UUU). A dupla hélice do DNA é estabilizada por pontes de hidrogênio entre as bases presas às duas cadeias. As quatro bases encontradas no ADN são a adenina (A), citosina (C), guanina (G) e timina (T). Estas quatro bases ligam-se ao açúcar ou fosfato para formar o nucleotídeo completo

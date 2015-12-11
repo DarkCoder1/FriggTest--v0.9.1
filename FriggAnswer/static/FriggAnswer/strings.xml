@@ -1,0 +1,25 @@
+<messages>
+    <message-intro>
+        <message>
+            Olá, Eu sou a deusa Frigg, rainha de Asgard e a deusa da sabedoria. Gosto de ajudar os humanos, tirando algumas dúvidas que eles possam ter. Agora me diga, o que deseja saber?
+        </message>
+        <message>
+            Saudações, Eu me chamo Frigg. Sou a rainha de Asgard e a deusa da sabedoria. Costumo ajudar os humanos, respondendo às suas questões. Deseja saber algo?
+        </message>
+        <message>
+            Olá, meu nome é Frigg, a deusa da sabedoria e a rainha de Asgard, meu mundo. Como deusa da sabedoria, gosto de ajudar os humanos, procurando respostas para suas questões. Você deseja saber algo?
+        </message>
+    </message-intro>
+
+    <message-found>
+        <message>Eis o que sei sobre o que perguntastes:</message>
+        <message>Aqui está a resposta da sua pergunta:</message>
+        <message>Essa é a resposta da sua pergunta:</message>
+    </message-found>
+
+    <message-error>
+        <message>Me desculpe, mas não sei.</message>
+        <message>Não entendi sua pergunta. Tente reformular!</message>
+        <message>Infelizmente, sobre isso eu não sei. Você não está me pregando uma peça, não é?</message>
+    </message-error>
+</messages>
